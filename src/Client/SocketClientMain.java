@@ -1,3 +1,5 @@
+package Client;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,7 +20,6 @@ public class SocketClientMain {
             BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
 
-            NameOfServer = reader.readLine();       // считываем имя сервера
             writer.println(NameOfClient);           // отсылаем серверу своё имя
 
             while (true) {
