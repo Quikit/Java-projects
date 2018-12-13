@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ClientAndServer.iml" filepath="$PROJECT_DIR$/ClientAndServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClientAndServer&amp;Oracle.iml" filepath="$PROJECT_DIR$/ClientAndServer&amp;Oracle.iml" />
     </modules>
   </component>
 </project>

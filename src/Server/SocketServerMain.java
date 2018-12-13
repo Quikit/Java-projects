@@ -6,10 +6,11 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Date;
 
 public class SocketServerMain {
     public static void main(String[] args)  {
-        try {
+            try {
 
             int serverPort = 8080;
             String NameOfServer = "Server";
@@ -28,7 +29,7 @@ public class SocketServerMain {
             System.out.println(NameOfClient + " joins the server");
             String line;
             while ((line = reader.readLine()) != null) {
-                System.out.println(NameOfClient + ": " + line);
+                System.out.println(NameOfClient + ": " + line + " " + new Date());
             }
 
         } catch (IOException e){
